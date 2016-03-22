@@ -22,10 +22,10 @@ Address.prototype.fullAddress = function() {
 function resetFields() {
   $("input#new-first-name").val("");
   $("input#new-last-name").val("");
-  $("input#new-address-type").val("");
-  $("input#new-street").val("");
-  $("input#new-city").val("");
-  $("input#new-state").val("");
+  $("input.new-address-type").val("");
+  $("input.new-street").val("");
+  $("input.new-city").val("");
+  $("input.new-state").val("");
 }
 $(document).ready(function()  {
   $("#add-address").click(function() {
